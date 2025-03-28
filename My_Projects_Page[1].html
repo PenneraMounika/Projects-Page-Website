@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1">
+        <div class=" d-flex flex-column pad">
+            <div class="d-flex flex-row justify-content-center ">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="partA" />
+            </div>
+            <h1 class="partAh">My projects</h1>
+            <p class="partAp">List of projects.</p>
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="partAim" onclick="display('section2')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="partAim" onclick="display('section3')" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="partAim" onclick="display('section4')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="partAim" onclick="display('section5')" />
+            </div>
+        </div>
+    </div>
+    <div id="section4">
+        <div class="pa123 d-flex flex-column justify-content-end">
+            <div class="pa2">
+                <h1 class="pa3">Happy Meals</h1>
+                <p class="pa4">Discover the best foods over the 1,000 restaurants </p>
+                <button class="pa5 pa4">Book Now</button>
+                <button class="pa5 pa4" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="pa10 d-flex flex-column justify-content-end">
+            <div class="pa2">
+                <h1 class="pa3">Advanced Technologies</h1>
+                <p class="pa4">Discover the best technologies over the country. </p>
+                <button class="pa5 pa4">Read Now</button>
+                <button class="pa5 pa4" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section3">
+        <div class="pa1 d-flex flex-column justify-content-end">
+            <div class="pa2">
+                <h1 class="pa3">Happy Diwali</h1>
+                <p class="pa4">Celebrate the festival of lights</p>
+                <button class="pa5 pa4">Book Diyas</button>
+                <button class="pa5 pa4" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section5">
+        <div class="pat1 d-flex flex-column justify-content-end">
+            <div class="pat2">
+                <p class="pat3">NEWS OF THE DAY</p>
+                <h1 class="pat4">iB Cricket announces world's first Virtual Reality Cricket League</h1>
+                <p class="pat5">iB Cricket and Viu together have announced the World's first virtual reality cricket league featuringf 12 international cricketers,who will be competing against each other for the iB Cricket Super Over League title in Mumbai.</p>
+                <button class="pat6">Read more</button>
+                <button class="pa5 pa4" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

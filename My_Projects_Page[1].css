@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.pad {
+    padding: 10px;
+    text-align: center;
+}
+
+.partA {
+    height: 30vh;
+}
+
+.partAh {
+    color: #183b56;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bree Serif";
+}
+
+.partAp {
+    color: #616e7c;
+    font-size: 15px;
+    text-align: center;
+}
+
+.partAim {
+    margin: 10px;
+    height: 135px;
+    width: 140px;
+    border-radius: 3px;
+}
+
+.partB {
+    height: 80vh;
+    width: 350px;
+    background-size: cover;
+}
+
+.tcont {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #ffffff;
+}
+
+.pa1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.pa123 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.pa10 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.pa2 {
+    height: 30vh;
+    background-color: #f6c56e;
+    color: #323f4b;
+    padding: 20px;
+}
+
+.pa3 {
+    font-family: "Bree Serif";
+}
+
+.pa4 {
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.pa5 {
+    background-color: #ffffff;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.pat1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.pat2 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.pat4 {
+    color: #323f4b;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: "Roboto";
+}
+
+.pat3 {
+    font-size: 15px;
+    color: #7b8794;
+}
+
+.pat5 {
+    color: #7b8794;
+}
+
+.pat6 {
+    background-color: #323f4b;
+    border-width: 0px;
+    height: 40px;
+    border-radius: 8px;
+    width: 130px;
+    color: #ffffff;
+}
